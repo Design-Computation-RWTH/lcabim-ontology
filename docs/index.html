@@ -1,180 +1,342 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Documentation and RDF serializations for the LCABIM ontology stack used in the LCA to BIM Workflow project."
+    />
     <title>LCABIM Ontologies</title>
-    <style>
-      body {
-        font-family: system-ui, sans-serif;
-        margin: 2rem;
-        max-width: 70ch;
-      }
-      h1,
-      h2 {
-        margin-top: 1.5rem;
-      }
-      ul {
-        line-height: 1.6;
-      }
-      code {
-        background: #f2f2f2;
-        padding: 0.1rem 0.3rem;
-        border-radius: 4px;
-      }
-    </style>
+    <link rel="stylesheet" href="./assets/site.css" />
   </head>
   <body>
-    <h1>LCABIM Ontology Documentation</h1>
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
-    <p>
-      This site publishes documentation and RDF serializations for the LCABIM
-      core ontology and its modules. The persistent IRIs are provided via
-      <code>w3id.org</code>.
-    </p>
+    <div class="page-shell">
+      <main id="main-content">
+        <section class="top-grid" aria-labelledby="page-title">
+          <div class="hero-copy">
+            <h1 id="page-title">LCABIM ontology stack</h1>
+            <p class="hero-lead">
+              Documentation and RDF serializations for the published LCABIM
+              modules in the
+              <strong
+                ><a href="https://dc.rwth-aachen.de/lca-to-bim-workflow/"
+                  >LCA to BIM Workflow
+                </a></strong
+              >project.
+            </p>
+          </div>
 
-    <h2>Modules (English)</h2>
-    <ul>
-      <li>
-        <a href="https://w3id.org/lcabim/lcabimcore">LCABIM Core (umbrella)</a>
-      </li>
-      <li>
-        <a href="https://w3id.org/lcabim/ilcd"
-          >ILCD core schema (LinkML-generated)</a
-        >
-      </li>
-      <li><a href="https://w3id.org/lcabim/din276">DIN 276 cost groups</a></li>
-      <li><a href="https://w3id.org/lcabim/obd">ÖKOBAUDAT categories</a></li>
-      <li>
-        <a href="https://w3id.org/lcabim/concreteclass"
-          >Concrete classes (derived)</a
-        >
-      </li>
-      <li>
-        <a href="https://w3id.org/lcabim/bki">BKI element / layer model</a>
-      </li>
-      <li>
-        <a href="./bsdd/index-en.html">bSDD LCA indicators</a>
-      </li>
-      <li>
-        <a href="./ilcdind/index-en.html">ILCD LCA indicators</a>
-      </li>
-    </ul>
+          <aside class="access-panel" id="access" aria-label="Access">
+            <div class="access-items">
+              <p class="access-item">
+                <span class="access-label">Persistent</span>
+                <a href="https://w3id.org/lcabim/">w3id.org/lcabim/</a>
+              </p>
+              <p class="access-item">
+                <span class="access-label">Hosting</span>
+                <a
+                  href="https://design-computation-rwth.github.io/lcabim-ontology/"
+                  >GitHub Pages</a
+                >
+              </p>
+              <p class="access-item access-item-inline">
+                <span class="access-label">Funding</span>
+                <span>Zukunft Bau departmental research</span>
+                <span class="access-meta"
+                  >(reference no. 10.08.17.7-23.12)</span
+                >
+              </p>
+            </div>
+          </aside>
+        </section>
 
-    <h2>Module (Deutsch)</h2>
-    <p>
-      Hinweis: Die folgenden Links zeigen standardmäßig die englische
-      Dokumentation (w3id-Weiterleitung). Für die deutsche Version bitte die
-      <code>index-de.html</code>-Seiten unten verwenden.
-    </p>
-    <ul>
-      <li>
-        <a href="https://w3id.org/lcabim/lcabimcore">LCABIM Core (Umbrella)</a>
-      </li>
-      <li>
-        <a href="https://w3id.org/lcabim/ilcd"
-          >ILCD-Kernschema (aus LinkML generiert)</a
-        >
-      </li>
-      <li>
-        <a href="https://w3id.org/lcabim/din276">DIN 276 Kostengruppen</a>
-      </li>
-      <li><a href="https://w3id.org/lcabim/obd">ÖKOBAUDAT Kategorien</a></li>
-      <li>
-        <a href="https://w3id.org/lcabim/concreteclass"
-          >Betonklassen (abgeleitet)</a
-        >
-      </li>
-      <li>
-        <a href="https://w3id.org/lcabim/bki">BKI Element- / Schichtmodell</a>
-      </li>
-      <li>
-        <a href="./bsdd/index-de.html">bSDD-LCA-Indikatoren</a>
-      </li>
-      <li>
-        <a href="./ilcdind/index-de.html">ILCD-LCA-Indikatoren</a>
-      </li>
-    </ul>
+        <section class="section-block" aria-labelledby="modules-title">
+          <div class="section-heading">
+            <p class="section-kicker" id="modules">Published modules</p>
+          </div>
 
-    <h2>German documentation (direct)</h2>
-    <ul>
-      <li>
-        <a href="./lcabimcore/index-de.html"
-          ><code>lcabimcore/index-de.html</code></a
-        >
-      </li>
-      <li>
-        <a href="./ilcd/index-de.html"><code>ilcd/index-de.html</code></a>
-      </li>
-      <li>
-        <a href="./din276/index-de.html"><code>din276/index-de.html</code></a>
-      </li>
-      <li>
-        <a href="./obd/index-de.html"><code>obd/index-de.html</code></a>
-      </li>
-      <li>
-        <a href="./concreteclass/index-de.html"
-          ><code>concreteclass/index-de.html</code></a
-        >
-      </li>
-      <li>
-        <a href="./bki/index-de.html"><code>bki/index-de.html</code></a>
-      </li>
-      <li>
-        <a href="./bsdd/index-de.html"><code>bsdd/index-de.html</code></a>
-      </li>
-      <li>
-        <a href="./ilcdind/index-de.html"><code>ilcdind/index-de.html</code></a>
-      </li>
-    </ul>
+          <div class="module-list">
+            <article class="module-row">
+              <div class="module-main">
+                <p class="module-id">lcabimcore</p>
+                <div class="module-text">
+                  <h3>LCABIM Core</h3>
+                  <p class="module-summary">
+                    Umbrella ontology importing the ILCD core schema and the
+                    project modules.
+                  </p>
+                </div>
+              </div>
+              <div class="module-actions">
+                <div
+                  class="module-docs"
+                  role="group"
+                  aria-label="Documentation languages"
+                >
+                  <span class="module-docs-label">Docs</span>
+                  <a
+                    class="doc-chip doc-chip-primary"
+                    href="https://w3id.org/lcabim/lcabimcore"
+                    >EN</a
+                  >
+                  <a class="doc-chip" href="./lcabimcore/index-de.html">DE</a>
+                </div>
+                <a
+                  class="module-link"
+                  href="https://w3id.org/lcabim/lcabimcore/ontology.ttl"
+                >
+                  <span class="link-label">Turtle</span>
+                  <span class="link-meta"><code>ttl</code></span>
+                </a>
+              </div>
+            </article>
 
-    <h2>RDF downloads (Turtle)</h2>
-    <p>Download the Turtle versions via persistent w3id IRIs:</p>
-    <ul>
-      <li>
-        <a href="https://w3id.org/lcabim/lcabimcore/ontology.ttl"
-          ><code>lcabimcore/ontology.ttl</code></a
-        >
-      </li>
-      <li>
-        <a href="https://w3id.org/lcabim/ilcd/ontology.ttl"
-          ><code>ilcd/ontology.ttl</code></a
-        >
-      </li>
-      <li>
-        <a href="https://w3id.org/lcabim/din276/ontology.ttl"
-          ><code>din276/ontology.ttl</code></a
-        >
-      </li>
-      <li>
-        <a href="https://w3id.org/lcabim/obd/ontology.ttl"
-          ><code>obd/ontology.ttl</code></a
-        >
-      </li>
-      <li>
-        <a href="https://w3id.org/lcabim/concreteclass/ontology.ttl"
-          ><code>concreteclass/ontology.ttl</code></a
-        >
-      </li>
-      <li>
-        <a href="https://w3id.org/lcabim/bki/ontology.ttl"
-          ><code>bki/ontology.ttl</code></a
-        >
-      </li>
-      <li>
-        <a href="./bsdd/ontology.ttl"><code>bsdd/ontology.ttl</code></a>
-      </li>
-      <li>
-        <a href="./ilcdind/ontology.ttl"><code>ilcdind/ontology.ttl</code></a>
-      </li>
-    </ul>
+            <article class="module-row">
+              <div class="module-main">
+                <p class="module-id">ilcd</p>
+                <div class="module-text">
+                  <h3>ILCD Core Schema</h3>
+                  <p class="module-summary">
+                    Structural OWL/RDF vocabulary for ILCD-based datasets and
+                    instances.
+                  </p>
+                </div>
+              </div>
+              <div class="module-actions">
+                <div
+                  class="module-docs"
+                  role="group"
+                  aria-label="Documentation languages"
+                >
+                  <span class="module-docs-label">Docs</span>
+                  <a
+                    class="doc-chip doc-chip-primary"
+                    href="https://w3id.org/lcabim/ilcd"
+                    >EN</a
+                  >
+                  <a class="doc-chip" href="./ilcd/index-de.html">DE</a>
+                </div>
+                <a
+                  class="module-link"
+                  href="https://w3id.org/lcabim/ilcd/ontology.ttl"
+                >
+                  <span class="link-label">Turtle</span>
+                  <span class="link-meta"><code>ttl</code></span>
+                </a>
+              </div>
+            </article>
 
-    <h2>Hosting</h2>
-    <p>
-      Current hosting:
-      <a href="https://g3rezz.github.io/lcabim-ontology/">GitHub Pages</a>.
-      Persistent identifiers:
-      <a href="https://w3id.org/lcabim/">https://w3id.org/lcabim/</a>.
-    </p>
+            <article class="module-row">
+              <div class="module-main">
+                <p class="module-id">din276</p>
+                <div class="module-text">
+                  <h3>DIN 276 Cost Groups</h3>
+                  <p class="module-summary">
+                    SKOS cost-group scheme and linking property for ILCDx data
+                    and BKI elements.
+                  </p>
+                </div>
+              </div>
+              <div class="module-actions">
+                <div
+                  class="module-docs"
+                  role="group"
+                  aria-label="Documentation languages"
+                >
+                  <span class="module-docs-label">Docs</span>
+                  <a
+                    class="doc-chip doc-chip-primary"
+                    href="https://w3id.org/lcabim/din276"
+                    >EN</a
+                  >
+                  <a class="doc-chip" href="./din276/index-de.html">DE</a>
+                </div>
+                <a
+                  class="module-link"
+                  href="https://w3id.org/lcabim/din276/ontology.ttl"
+                >
+                  <span class="link-label">Turtle</span>
+                  <span class="link-meta"><code>ttl</code></span>
+                </a>
+              </div>
+            </article>
+
+            <article class="module-row">
+              <div class="module-main">
+                <p class="module-id">obd</p>
+                <div class="module-text">
+                  <h3>ÖKOBAUDAT Categories</h3>
+                  <p class="module-summary">
+                    Canonical ÖKOBAUDAT category scheme for normalizing source
+                    classifications.
+                  </p>
+                </div>
+              </div>
+              <div class="module-actions">
+                <div
+                  class="module-docs"
+                  role="group"
+                  aria-label="Documentation languages"
+                >
+                  <span class="module-docs-label">Docs</span>
+                  <a
+                    class="doc-chip doc-chip-primary"
+                    href="https://w3id.org/lcabim/obd"
+                    >EN</a
+                  >
+                  <a class="doc-chip" href="./obd/index-de.html">DE</a>
+                </div>
+                <a
+                  class="module-link"
+                  href="https://w3id.org/lcabim/obd/ontology.ttl"
+                >
+                  <span class="link-label">Turtle</span>
+                  <span class="link-meta"><code>ttl</code></span>
+                </a>
+              </div>
+            </article>
+
+            <article class="module-row">
+              <div class="module-main">
+                <p class="module-id">concreteclass</p>
+                <div class="module-text">
+                  <h3>Concrete Classes</h3>
+                  <p class="module-summary">
+                    Derived concrete strength and density classes for project
+                    use.
+                  </p>
+                </div>
+              </div>
+              <div class="module-actions">
+                <div
+                  class="module-docs"
+                  role="group"
+                  aria-label="Documentation languages"
+                >
+                  <span class="module-docs-label">Docs</span>
+                  <a
+                    class="doc-chip doc-chip-primary"
+                    href="https://w3id.org/lcabim/concreteclass"
+                    >EN</a
+                  >
+                  <a class="doc-chip" href="./concreteclass/index-de.html"
+                    >DE</a
+                  >
+                </div>
+                <a
+                  class="module-link"
+                  href="https://w3id.org/lcabim/concreteclass/ontology.ttl"
+                >
+                  <span class="link-label">Turtle</span>
+                  <span class="link-meta"><code>ttl</code></span>
+                </a>
+              </div>
+            </article>
+
+            <article class="module-row">
+              <div class="module-main">
+                <p class="module-id">bki</p>
+                <div class="module-text">
+                  <h3>BKI Element and Layer Model</h3>
+                  <p class="module-summary">
+                    Minimal vocabulary for BKI element templates and material
+                    layers.
+                  </p>
+                </div>
+              </div>
+              <div class="module-actions">
+                <div
+                  class="module-docs"
+                  role="group"
+                  aria-label="Documentation languages"
+                >
+                  <span class="module-docs-label">Docs</span>
+                  <a
+                    class="doc-chip doc-chip-primary"
+                    href="https://w3id.org/lcabim/bki"
+                    >EN</a
+                  >
+                  <a class="doc-chip" href="./bki/index-de.html">DE</a>
+                </div>
+                <a
+                  class="module-link"
+                  href="https://w3id.org/lcabim/bki/ontology.ttl"
+                >
+                  <span class="link-label">Turtle</span>
+                  <span class="link-meta"><code>ttl</code></span>
+                </a>
+              </div>
+            </article>
+
+            <article class="module-row">
+              <div class="module-main">
+                <p class="module-id">bsdd</p>
+                <div class="module-text">
+                  <h3>bSDD LCA Indicators</h3>
+                  <p class="module-summary">
+                    Lightweight annotations for referenced bSDD LCA property
+                    IRIs.
+                  </p>
+                </div>
+              </div>
+              <div class="module-actions">
+                <div
+                  class="module-docs"
+                  role="group"
+                  aria-label="Documentation languages"
+                >
+                  <span class="module-docs-label">Docs</span>
+                  <a
+                    class="doc-chip doc-chip-primary"
+                    href="./bsdd/index-en.html"
+                    >EN</a
+                  >
+                  <a class="doc-chip" href="./bsdd/index-de.html">DE</a>
+                </div>
+                <a class="module-link" href="./bsdd/ontology.ttl">
+                  <span class="link-label">Turtle</span>
+                  <span class="link-meta"><code>ttl</code></span>
+                </a>
+              </div>
+            </article>
+
+            <article class="module-row">
+              <div class="module-main">
+                <p class="module-id">ilcdind</p>
+                <div class="module-text">
+                  <h3>ILCD LCA Indicators</h3>
+                  <p class="module-summary">
+                    Project indicator vocabulary for ILCD and EN 15804 results
+                    and units.
+                  </p>
+                </div>
+              </div>
+              <div class="module-actions">
+                <div
+                  class="module-docs"
+                  role="group"
+                  aria-label="Documentation languages"
+                >
+                  <span class="module-docs-label">Docs</span>
+                  <a
+                    class="doc-chip doc-chip-primary"
+                    href="./ilcdind/index-en.html"
+                    >EN</a
+                  >
+                  <a class="doc-chip" href="./ilcdind/index-de.html">DE</a>
+                </div>
+                <a class="module-link" href="./ilcdind/ontology.ttl">
+                  <span class="link-label">Turtle</span>
+                  <span class="link-meta"><code>ttl</code></span>
+                </a>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
