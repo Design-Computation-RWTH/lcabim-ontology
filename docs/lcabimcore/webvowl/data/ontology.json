@@ -10,8 +10,8 @@
     "iri" : "https://w3id.org/lcabim/lcabimcore",
     "version" : "0.1.0",
     "description" : {
-      "de" : "Umbrella-Ontologie, die das ILCD-Kernschema und Projektvokabulare für DIN 276, ÖKOBAUDAT-Kategorien, Betonklassen, BKI-Element-/Schichtmodellierung, LCA-Indikatoren aus bSDD und ILCD importiert.",
-      "en" : "Umbrella ontology that imports the ILCD core schema and project vocabularies for DIN 276, ÖKOBAUDAT categories, concrete classes, BKI element/layer modeling, LCA indicators from the bSDD and ILCD."
+      "de" : "Umbrella-Ontologie, die das ILCD-Kernschema und Projektvokabulare für DIN 276, ÖKOBAUDAT-Kategorien, Betonklassen, BKI-Element-/Schichtmodellierung, LCA-Indikatoren aus ILCD, bSDD LCA und IFC-4.3-Umweltwirkungs-Properties importiert.",
+      "en" : "Umbrella ontology that imports the ILCD core schema and project vocabularies for DIN 276, ÖKOBAUDAT categories, concrete classes, BKI element/layer modeling, LCA indicators from ILCD, bSDD LCA, and IFC 4.3 environmental impact properties."
     },
     "other" : {
       "license" : [ {

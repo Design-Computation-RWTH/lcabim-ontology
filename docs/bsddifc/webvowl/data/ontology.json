@@ -1,0 +1,1013 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "de", "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.w3.org/2004/02/skos/core" ],
+    "title" : {
+      "de" : "LCABIM bSDD-IFC-4.3-Properties",
+      "en" : "LCABIM bSDD IFC 4.3 properties"
+    },
+    "iri" : "https://w3id.org/lcabim/bsddifc",
+    "version" : "0.1.0",
+    "description" : {
+      "de" : "Diese Ontologie dokumentiert bSDD-(buildingSMART Data Dictionary)-IFC-4.3-Property-IRIs. Sie ersetzt bSDD nicht und veröffentlicht es nicht neu, sondern ergänzt nur leichtgewichtige Annotationen (Labels/Kommentare) für die verwendeten IRIs.",
+      "en" : "This ontology documents bSDD (buildingSMART Data Dictionary) IFC 4.3 property IRIs. It does not re-publish or replace bSDD, it only provides lightweight annotations (labels/comments) for the referenced IRIs."
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/licenses/by/4.0/",
+        "type" : "iri"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "0.1.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "de",
+        "value" : "LCABIM bSDD-IFC-4.3-Properties",
+        "type" : "label"
+      }, {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "LCABIM bSDD IFC 4.3 properties",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+    "baseIri" : "http://www.w3.org/2004/02/skos/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ConceptScheme"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset",
+      "baseIri" : "https://w3id.org/lcabim",
+      "annotations" : {
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "de",
+          "value" : "bSDD-IFC-4.3-Properties",
+          "type" : "label"
+        }, {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "bSDD IFC 4.3 properties",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Grouping scheme for referenced bSDD IFC 4.3 property IRIs.",
+          "type" : "label"
+        }, {
+          "identifier" : "definition",
+          "language" : "de",
+          "value" : "Gruppierungsschema für referenzierte bSDD-IFC-4.3-Property-IRIs.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "bSDD_IFC_4_3_prop_subset"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.w3.org/2004/02/skos/core#Concept",
+    "baseIri" : "http://www.w3.org/2004/02/skos/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Concept"
+    },
+    "individuals" : [ {
+      "iri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RadioactiveWaste",
+      "baseIri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "RadioactiveWaste",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Radioactive Waste",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Quantity of radioactive waste generated.",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RadioactiveWaste"
+      }
+    }, {
+      "iri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Eutrophication",
+      "baseIri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "Eutrophication",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Eutrophication",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Quantity of eutrophicating compounds calculated in equivalent PO4.",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Eutrophication"
+      }
+    }, {
+      "iri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/WaterConsumptionPerUnit",
+      "baseIri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "WaterConsumptionPerUnit",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Water Consumption Per Unit",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Quantity of water used.",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Technical note: in IFC this property takes 'IfcVolumeMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "WaterConsumptionPerUnit"
+      }
+    }, {
+      "iri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumptionPerUnit",
+      "baseIri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "RenewableEnergyConsumptionPerUnit",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Renewable Energy Consumption Per Unit",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Quantity of renewable energy used as defined in ISO21930:2007",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Technical note: in IFC this property takes 'IfcEnergyMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RenewableEnergyConsumptionPerUnit"
+      }
+    }, {
+      "iri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonHazardousWastePerUnit",
+      "baseIri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "NonHazardousWastePerUnit",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Non Hazardous Waste Per Unit",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Quantity of non hazardous waste generated",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "NonHazardousWastePerUnit"
+      }
+    }, {
+      "iri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChangePerUnit",
+      "baseIri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "ClimateChangePerUnit",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Climate Change Per Unit",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Quantity of greenhouse gases emitted calculated in equivalent CO2",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "ClimateChangePerUnit"
+      }
+    }, {
+      "iri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HazardousWastePerUnit",
+      "baseIri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "HazardousWastePerUnit",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Hazardous Waste Per Unit",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Quantity of hazardous waste generated",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "HazardousWastePerUnit"
+      }
+    }, {
+      "iri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumptionPerUnit",
+      "baseIri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "NonRenewableEnergyConsumptionPerUnit",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Non Renewable Energy Consumption Per Unit",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Quantity of non-renewable energy used as defined in ISO21930:2007",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Technical note: in IFC this property takes 'IfcEnergyMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "NonRenewableEnergyConsumptionPerUnit"
+      }
+    }, {
+      "iri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StratosphericOzoneLayerDestructionPerUnit",
+      "baseIri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "StratosphericOzoneLayerDestructionPerUnit",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Stratospheric Ozone Layer Destruction Per Unit",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Quantity of gases destroying the stratospheric ozone layer calculated in equivalent CFC-R11",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "StratosphericOzoneLayerDestructionPerUnit"
+      }
+    }, {
+      "iri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AtmosphericAcidification",
+      "baseIri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "AtmosphericAcidification",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Atmospheric Acidification",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Quantity of gases responsible for the atmospheric acidification calculated in equivalent SO2.",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "AtmosphericAcidification"
+      }
+    }, {
+      "iri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletionPerUnit",
+      "baseIri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "ResourceDepletionPerUnit",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Resource Depletion Per Unit",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Quantity of resources used calculated in equivalent antimony",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "ResourceDepletionPerUnit"
+      }
+    }, {
+      "iri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumption",
+      "baseIri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "RenewableEnergyConsumption",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Renewable Energy Consumption",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Quantity of renewable energy used as defined in ISO21930:2007",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Technical note: in IFC this property takes 'IfcEnergyMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RenewableEnergyConsumption"
+      }
+    }, {
+      "iri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RadioactiveWastePerUnit",
+      "baseIri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "RadioactiveWastePerUnit",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Radioactive Waste Per Unit",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Quantity of radioactive waste generated",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RadioactiveWastePerUnit"
+      }
+    }, {
+      "iri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChange",
+      "baseIri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "ClimateChange",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Climate Change",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Quantity of greenhouse gases emitted calculated in equivalent CO2.",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "ClimateChange"
+      }
+    }, {
+      "iri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonHazardousWaste",
+      "baseIri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "NonHazardousWaste",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Non Hazardous Waste",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Quantity of non hazardous waste generated.",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "NonHazardousWaste"
+      }
+    }, {
+      "iri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HazardousWaste",
+      "baseIri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "HazardousWaste",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Hazardous Waste",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Quantity of hazardous waste generated.",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "HazardousWaste"
+      }
+    }, {
+      "iri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletion",
+      "baseIri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "ResourceDepletion",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Resource Depletion",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Quantity of resources used calculated in equivalent antimony.",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "ResourceDepletion"
+      }
+    }, {
+      "iri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/WaterConsumption",
+      "baseIri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "WaterConsumption",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Water Consumption",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Quantity of water used.",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Technical note: in IFC this property takes 'IfcVolumeMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "WaterConsumption"
+      }
+    }, {
+      "iri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumption",
+      "baseIri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "NonRenewableEnergyConsumption",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Non Renewable Energy Consumption",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Quantity of non-renewable energy used as defined in ISO21930:2007",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Technical note: in IFC this property takes 'IfcEnergyMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "NonRenewableEnergyConsumption"
+      }
+    }, {
+      "iri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/PhotochemicalOzoneFormation",
+      "baseIri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "PhotochemicalOzoneFormation",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Photochemical Ozone Formation",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Quantity of gases creating the photochemical ozone calculated in equivalent ethylene.",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "PhotochemicalOzoneFormation"
+      }
+    }, {
+      "iri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AtmosphericAcidificationPerUnit",
+      "baseIri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "AtmosphericAcidificationPerUnit",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Atmospheric Acidification Per Unit",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Quantity of gases responsible for the atmospheric acidification calculated in equivalent SO2",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "AtmosphericAcidificationPerUnit"
+      }
+    }, {
+      "iri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/EutrophicationPerUnit",
+      "baseIri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "EutrophicationPerUnit",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Eutrophication Per Unit",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Quantity of eutrophicating compounds calculated in equivalent PO4",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "EutrophicationPerUnit"
+      }
+    }, {
+      "iri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/PhotochemicalOzoneFormationPerUnit",
+      "baseIri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "PhotochemicalOzoneFormationPerUnit",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Photochemical Ozone Formation Per Unit",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Quantity of gases creating the photochemical ozone calculated in equivalent ethylene",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "PhotochemicalOzoneFormationPerUnit"
+      }
+    }, {
+      "iri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StratosphericOzoneLayerDestruction",
+      "baseIri" : "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset",
+          "type" : "iri"
+        } ],
+        "notation" : [ {
+          "identifier" : "notation",
+          "language" : "undefined",
+          "value" : "StratosphericOzoneLayerDestruction",
+          "type" : "label"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "Stratospheric Ozone Layer Destruction",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "Quantity of gases destroying the stratospheric ozone layer calculated in equivalent CFC-R11.",
+          "type" : "label"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "StratosphericOzoneLayerDestruction"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "1"
+  } ]
+}

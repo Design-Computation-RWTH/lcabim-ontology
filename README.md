@@ -26,7 +26,8 @@ The ontology is published as an umbrella/core ontology plus several modules:
 - **ÖKOBAUDAT categories**: https://w3id.org/lcabim/obd
 - **Concrete classes (derived)**: https://w3id.org/lcabim/concreteclass
 - **BKI element / layer model**: https://w3id.org/lcabim/bki
-- **bSDD LCA indicators**: https://w3id.org/lcabim/bsdd
+- **bSDD LCA properties**: https://w3id.org/lcabim/bsddlca
+- **IFC 4.3 environmental impact properties**: https://w3id.org/lcabim/bsddifc
 - **ILCD LCA indicators**: https://w3id.org/lcabim/ilcdind
 
 ## RDF downloads
@@ -39,7 +40,8 @@ Turtle files are published per module under the persistent namespace, e.g.:
 - https://w3id.org/lcabim/obd/ontology.ttl
 - https://w3id.org/lcabim/concreteclass/ontology.ttl
 - https://w3id.org/lcabim/bki/ontology.ttl
-- https://w3id.org/lcabim/bsdd/ontology.ttl
+- https://w3id.org/lcabim/bsddlca/ontology.ttl
+- https://w3id.org/lcabim/bsddifc/ontology.ttl
 - https://w3id.org/lcabim/ilcdind/ontology.ttl
 
 ## How the documentation is generated

@@ -1,0 +1,289 @@
+<https://w3id.org/lcabim/bsddifc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/lcabim/bsddifc> <http://purl.org/dc/terms/description> "Diese Ontologie dokumentiert bSDD-(buildingSMART Data Dictionary)-IFC-4.3-Property-IRIs. Sie ersetzt bSDD nicht und veröffentlicht es nicht neu, sondern ergänzt nur leichtgewichtige Annotationen (Labels/Kommentare) für die verwendeten IRIs."@de .
+<https://w3id.org/lcabim/bsddifc> <http://purl.org/dc/terms/description> "This ontology documents bSDD (buildingSMART Data Dictionary) IFC 4.3 property IRIs. It does not re-publish or replace bSDD, it only provides lightweight annotations (labels/comments) for the referenced IRIs."@en .
+<https://w3id.org/lcabim/bsddifc> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://w3id.org/lcabim/bsddifc> <http://purl.org/dc/terms/title> "LCABIM bSDD IFC 4.3 properties"@en .
+<https://w3id.org/lcabim/bsddifc> <http://purl.org/dc/terms/title> "LCABIM bSDD-IFC-4.3-Properties"@de .
+<https://w3id.org/lcabim/bsddifc> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#inScheme
+<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#notation
+<http://www.w3.org/2004/02/skos/core#notation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#scopeNote
+<http://www.w3.org/2004/02/skos/core#scopeNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2004/02/skos/core#ConceptScheme
+<http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AtmosphericAcidification
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AtmosphericAcidification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AtmosphericAcidification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AtmosphericAcidification> <http://www.w3.org/2004/02/skos/core#definition> "Quantity of gases responsible for the atmospheric acidification calculated in equivalent SO2."@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AtmosphericAcidification> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AtmosphericAcidification> <http://www.w3.org/2004/02/skos/core#notation> "AtmosphericAcidification" .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AtmosphericAcidification> <http://www.w3.org/2004/02/skos/core#prefLabel> "Atmospheric Acidification"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AtmosphericAcidification> <http://www.w3.org/2004/02/skos/core#scopeNote> "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information."@en .
+# 
+# https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AtmosphericAcidificationPerUnit
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AtmosphericAcidificationPerUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AtmosphericAcidificationPerUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AtmosphericAcidificationPerUnit> <http://www.w3.org/2004/02/skos/core#definition> "Quantity of gases responsible for the atmospheric acidification calculated in equivalent SO2"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AtmosphericAcidificationPerUnit> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AtmosphericAcidificationPerUnit> <http://www.w3.org/2004/02/skos/core#notation> "AtmosphericAcidificationPerUnit" .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AtmosphericAcidificationPerUnit> <http://www.w3.org/2004/02/skos/core#prefLabel> "Atmospheric Acidification Per Unit"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AtmosphericAcidificationPerUnit> <http://www.w3.org/2004/02/skos/core#scopeNote> "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information."@en .
+# 
+# https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChange
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChange> <http://www.w3.org/2004/02/skos/core#definition> "Quantity of greenhouse gases emitted calculated in equivalent CO2."@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChange> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChange> <http://www.w3.org/2004/02/skos/core#notation> "ClimateChange" .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChange> <http://www.w3.org/2004/02/skos/core#prefLabel> "Climate Change"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChange> <http://www.w3.org/2004/02/skos/core#scopeNote> "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information."@en .
+# 
+# https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChangePerUnit
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChangePerUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChangePerUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChangePerUnit> <http://www.w3.org/2004/02/skos/core#definition> "Quantity of greenhouse gases emitted calculated in equivalent CO2"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChangePerUnit> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChangePerUnit> <http://www.w3.org/2004/02/skos/core#notation> "ClimateChangePerUnit" .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChangePerUnit> <http://www.w3.org/2004/02/skos/core#prefLabel> "Climate Change Per Unit"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChangePerUnit> <http://www.w3.org/2004/02/skos/core#scopeNote> "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information."@en .
+# 
+# https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Eutrophication
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Eutrophication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Eutrophication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Eutrophication> <http://www.w3.org/2004/02/skos/core#definition> "Quantity of eutrophicating compounds calculated in equivalent PO4."@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Eutrophication> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Eutrophication> <http://www.w3.org/2004/02/skos/core#notation> "Eutrophication" .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Eutrophication> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eutrophication"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Eutrophication> <http://www.w3.org/2004/02/skos/core#scopeNote> "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information."@en .
+# 
+# https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/EutrophicationPerUnit
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/EutrophicationPerUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/EutrophicationPerUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/EutrophicationPerUnit> <http://www.w3.org/2004/02/skos/core#definition> "Quantity of eutrophicating compounds calculated in equivalent PO4"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/EutrophicationPerUnit> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/EutrophicationPerUnit> <http://www.w3.org/2004/02/skos/core#notation> "EutrophicationPerUnit" .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/EutrophicationPerUnit> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eutrophication Per Unit"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/EutrophicationPerUnit> <http://www.w3.org/2004/02/skos/core#scopeNote> "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information."@en .
+# 
+# https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HazardousWaste
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HazardousWaste> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HazardousWaste> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HazardousWaste> <http://www.w3.org/2004/02/skos/core#definition> "Quantity of hazardous waste generated."@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HazardousWaste> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HazardousWaste> <http://www.w3.org/2004/02/skos/core#notation> "HazardousWaste" .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HazardousWaste> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hazardous Waste"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HazardousWaste> <http://www.w3.org/2004/02/skos/core#scopeNote> "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information."@en .
+# 
+# https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HazardousWastePerUnit
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HazardousWastePerUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HazardousWastePerUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HazardousWastePerUnit> <http://www.w3.org/2004/02/skos/core#definition> "Quantity of hazardous waste generated"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HazardousWastePerUnit> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HazardousWastePerUnit> <http://www.w3.org/2004/02/skos/core#notation> "HazardousWastePerUnit" .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HazardousWastePerUnit> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hazardous Waste Per Unit"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HazardousWastePerUnit> <http://www.w3.org/2004/02/skos/core#scopeNote> "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information."@en .
+# 
+# https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonHazardousWaste
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonHazardousWaste> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonHazardousWaste> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonHazardousWaste> <http://www.w3.org/2004/02/skos/core#definition> "Quantity of non hazardous waste generated."@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonHazardousWaste> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonHazardousWaste> <http://www.w3.org/2004/02/skos/core#notation> "NonHazardousWaste" .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonHazardousWaste> <http://www.w3.org/2004/02/skos/core#prefLabel> "Non Hazardous Waste"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonHazardousWaste> <http://www.w3.org/2004/02/skos/core#scopeNote> "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information."@en .
+# 
+# https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonHazardousWastePerUnit
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonHazardousWastePerUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonHazardousWastePerUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonHazardousWastePerUnit> <http://www.w3.org/2004/02/skos/core#definition> "Quantity of non hazardous waste generated"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonHazardousWastePerUnit> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonHazardousWastePerUnit> <http://www.w3.org/2004/02/skos/core#notation> "NonHazardousWastePerUnit" .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonHazardousWastePerUnit> <http://www.w3.org/2004/02/skos/core#prefLabel> "Non Hazardous Waste Per Unit"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonHazardousWastePerUnit> <http://www.w3.org/2004/02/skos/core#scopeNote> "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information."@en .
+# 
+# https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumption
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumption> <http://www.w3.org/2004/02/skos/core#definition> "Quantity of non-renewable energy used as defined in ISO21930:2007"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumption> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumption> <http://www.w3.org/2004/02/skos/core#notation> "NonRenewableEnergyConsumption" .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumption> <http://www.w3.org/2004/02/skos/core#prefLabel> "Non Renewable Energy Consumption"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumption> <http://www.w3.org/2004/02/skos/core#scopeNote> "Technical note: in IFC this property takes 'IfcEnergyMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information."@en .
+# 
+# https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumptionPerUnit
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumptionPerUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumptionPerUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumptionPerUnit> <http://www.w3.org/2004/02/skos/core#definition> "Quantity of non-renewable energy used as defined in ISO21930:2007"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumptionPerUnit> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumptionPerUnit> <http://www.w3.org/2004/02/skos/core#notation> "NonRenewableEnergyConsumptionPerUnit" .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumptionPerUnit> <http://www.w3.org/2004/02/skos/core#prefLabel> "Non Renewable Energy Consumption Per Unit"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumptionPerUnit> <http://www.w3.org/2004/02/skos/core#scopeNote> "Technical note: in IFC this property takes 'IfcEnergyMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information."@en .
+# 
+# https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/PhotochemicalOzoneFormation
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/PhotochemicalOzoneFormation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/PhotochemicalOzoneFormation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/PhotochemicalOzoneFormation> <http://www.w3.org/2004/02/skos/core#definition> "Quantity of gases creating the photochemical ozone calculated in equivalent ethylene."@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/PhotochemicalOzoneFormation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/PhotochemicalOzoneFormation> <http://www.w3.org/2004/02/skos/core#notation> "PhotochemicalOzoneFormation" .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/PhotochemicalOzoneFormation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Photochemical Ozone Formation"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/PhotochemicalOzoneFormation> <http://www.w3.org/2004/02/skos/core#scopeNote> "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information."@en .
+# 
+# https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/PhotochemicalOzoneFormationPerUnit
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/PhotochemicalOzoneFormationPerUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/PhotochemicalOzoneFormationPerUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/PhotochemicalOzoneFormationPerUnit> <http://www.w3.org/2004/02/skos/core#definition> "Quantity of gases creating the photochemical ozone calculated in equivalent ethylene"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/PhotochemicalOzoneFormationPerUnit> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/PhotochemicalOzoneFormationPerUnit> <http://www.w3.org/2004/02/skos/core#notation> "PhotochemicalOzoneFormationPerUnit" .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/PhotochemicalOzoneFormationPerUnit> <http://www.w3.org/2004/02/skos/core#prefLabel> "Photochemical Ozone Formation Per Unit"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/PhotochemicalOzoneFormationPerUnit> <http://www.w3.org/2004/02/skos/core#scopeNote> "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information."@en .
+# 
+# https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RadioactiveWaste
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RadioactiveWaste> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RadioactiveWaste> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RadioactiveWaste> <http://www.w3.org/2004/02/skos/core#definition> "Quantity of radioactive waste generated."@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RadioactiveWaste> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RadioactiveWaste> <http://www.w3.org/2004/02/skos/core#notation> "RadioactiveWaste" .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RadioactiveWaste> <http://www.w3.org/2004/02/skos/core#prefLabel> "Radioactive Waste"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RadioactiveWaste> <http://www.w3.org/2004/02/skos/core#scopeNote> "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information."@en .
+# 
+# https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RadioactiveWastePerUnit
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RadioactiveWastePerUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RadioactiveWastePerUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RadioactiveWastePerUnit> <http://www.w3.org/2004/02/skos/core#definition> "Quantity of radioactive waste generated"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RadioactiveWastePerUnit> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RadioactiveWastePerUnit> <http://www.w3.org/2004/02/skos/core#notation> "RadioactiveWastePerUnit" .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RadioactiveWastePerUnit> <http://www.w3.org/2004/02/skos/core#prefLabel> "Radioactive Waste Per Unit"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RadioactiveWastePerUnit> <http://www.w3.org/2004/02/skos/core#scopeNote> "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information."@en .
+# 
+# https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumption
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumption> <http://www.w3.org/2004/02/skos/core#definition> "Quantity of renewable energy used as defined in ISO21930:2007"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumption> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumption> <http://www.w3.org/2004/02/skos/core#notation> "RenewableEnergyConsumption" .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumption> <http://www.w3.org/2004/02/skos/core#prefLabel> "Renewable Energy Consumption"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumption> <http://www.w3.org/2004/02/skos/core#scopeNote> "Technical note: in IFC this property takes 'IfcEnergyMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information."@en .
+# 
+# https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumptionPerUnit
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumptionPerUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumptionPerUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumptionPerUnit> <http://www.w3.org/2004/02/skos/core#definition> "Quantity of renewable energy used as defined in ISO21930:2007"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumptionPerUnit> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumptionPerUnit> <http://www.w3.org/2004/02/skos/core#notation> "RenewableEnergyConsumptionPerUnit" .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumptionPerUnit> <http://www.w3.org/2004/02/skos/core#prefLabel> "Renewable Energy Consumption Per Unit"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumptionPerUnit> <http://www.w3.org/2004/02/skos/core#scopeNote> "Technical note: in IFC this property takes 'IfcEnergyMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information."@en .
+# 
+# https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletion
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletion> <http://www.w3.org/2004/02/skos/core#definition> "Quantity of resources used calculated in equivalent antimony."@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletion> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletion> <http://www.w3.org/2004/02/skos/core#notation> "ResourceDepletion" .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletion> <http://www.w3.org/2004/02/skos/core#prefLabel> "Resource Depletion"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletion> <http://www.w3.org/2004/02/skos/core#scopeNote> "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information."@en .
+# 
+# https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletionPerUnit
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletionPerUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletionPerUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletionPerUnit> <http://www.w3.org/2004/02/skos/core#definition> "Quantity of resources used calculated in equivalent antimony"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletionPerUnit> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletionPerUnit> <http://www.w3.org/2004/02/skos/core#notation> "ResourceDepletionPerUnit" .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletionPerUnit> <http://www.w3.org/2004/02/skos/core#prefLabel> "Resource Depletion Per Unit"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletionPerUnit> <http://www.w3.org/2004/02/skos/core#scopeNote> "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information."@en .
+# 
+# https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StratosphericOzoneLayerDestruction
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StratosphericOzoneLayerDestruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StratosphericOzoneLayerDestruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StratosphericOzoneLayerDestruction> <http://www.w3.org/2004/02/skos/core#definition> "Quantity of gases destroying the stratospheric ozone layer calculated in equivalent CFC-R11."@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StratosphericOzoneLayerDestruction> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StratosphericOzoneLayerDestruction> <http://www.w3.org/2004/02/skos/core#notation> "StratosphericOzoneLayerDestruction" .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StratosphericOzoneLayerDestruction> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stratospheric Ozone Layer Destruction"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StratosphericOzoneLayerDestruction> <http://www.w3.org/2004/02/skos/core#scopeNote> "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information."@en .
+# 
+# https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StratosphericOzoneLayerDestructionPerUnit
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StratosphericOzoneLayerDestructionPerUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StratosphericOzoneLayerDestructionPerUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StratosphericOzoneLayerDestructionPerUnit> <http://www.w3.org/2004/02/skos/core#definition> "Quantity of gases destroying the stratospheric ozone layer calculated in equivalent CFC-R11"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StratosphericOzoneLayerDestructionPerUnit> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StratosphericOzoneLayerDestructionPerUnit> <http://www.w3.org/2004/02/skos/core#notation> "StratosphericOzoneLayerDestructionPerUnit" .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StratosphericOzoneLayerDestructionPerUnit> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stratospheric Ozone Layer Destruction Per Unit"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StratosphericOzoneLayerDestructionPerUnit> <http://www.w3.org/2004/02/skos/core#scopeNote> "Technical note: in IFC this property takes 'IfcMassMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information."@en .
+# 
+# https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/WaterConsumption
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/WaterConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/WaterConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/WaterConsumption> <http://www.w3.org/2004/02/skos/core#definition> "Quantity of water used."@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/WaterConsumption> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/WaterConsumption> <http://www.w3.org/2004/02/skos/core#notation> "WaterConsumption" .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/WaterConsumption> <http://www.w3.org/2004/02/skos/core#prefLabel> "Water Consumption"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/WaterConsumption> <http://www.w3.org/2004/02/skos/core#scopeNote> "Technical note: in IFC this property takes 'IfcVolumeMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information."@en .
+# 
+# https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/WaterConsumptionPerUnit
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/WaterConsumptionPerUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/WaterConsumptionPerUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/WaterConsumptionPerUnit> <http://www.w3.org/2004/02/skos/core#definition> "Quantity of water used."@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/WaterConsumptionPerUnit> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/WaterConsumptionPerUnit> <http://www.w3.org/2004/02/skos/core#notation> "WaterConsumptionPerUnit" .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/WaterConsumptionPerUnit> <http://www.w3.org/2004/02/skos/core#prefLabel> "Water Consumption Per Unit"@en .
+<https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/WaterConsumptionPerUnit> <http://www.w3.org/2004/02/skos/core#scopeNote> "Technical note: in IFC this property takes 'IfcVolumeMeasure' as value. Such objects are not included in bSDD for simplicity reason. IFC also doesn't enforce particular units, but recommends using metric SI units (metre, kilogram, etc.). Read the IFC documentation for more information."@en .
+# 
+# https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset
+<https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> <http://www.w3.org/2004/02/skos/core#definition> "Grouping scheme for referenced bSDD IFC 4.3 property IRIs."@en .
+<https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> <http://www.w3.org/2004/02/skos/core#definition> "Gruppierungsschema für referenzierte bSDD-IFC-4.3-Property-IRIs."@de .
+<https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> <http://www.w3.org/2004/02/skos/core#prefLabel> "bSDD IFC 4.3 properties"@en .
+<https://w3id.org/lcabim/bSDD_IFC_4_3_prop_subset> <http://www.w3.org/2004/02/skos/core#prefLabel> "bSDD-IFC-4.3-Properties"@de .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

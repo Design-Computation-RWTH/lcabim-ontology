@@ -61,6 +61,20 @@
     
 
 
+    <!-- http://www.w3.org/2004/02/skos/core#broadMatch -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broadMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+    
+
+
     <!-- http://www.w3.org/2004/02/skos/core#definition -->
 
 
@@ -244,6 +258,8 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/lcabim/ilcdind/ADPE">
         <rdf:type rdf:resource="https://w3id.org/lcabim/ilcdind/ILCDIndicator"/>
         <ilcdind:unit>kg Sb-eqv.</ilcdind:unit>
+        <skos:closeMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletion"/>
+        <skos:closeMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletionPerUnit"/>
         <skos:definition xml:lang="en">Abiotic depletion potential for minerals and metals.</skos:definition>
         <skos:definition xml:lang="de">Abiotisches Ressourcenverknappungspotenzial für Mineralien und Metalle.</skos:definition>
         <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/ADP_MM"/>
@@ -261,6 +277,8 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/lcabim/ilcdind/ADPF">
         <rdf:type rdf:resource="https://w3id.org/lcabim/ilcdind/ILCDIndicator"/>
         <ilcdind:unit>MJ</ilcdind:unit>
+        <skos:broadMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletion"/>
+        <skos:broadMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletionPerUnit"/>
         <skos:definition xml:lang="en">Abiotic depletion potential for fossil resources.</skos:definition>
         <skos:definition xml:lang="de">Abiotisches Ressourcenverknappungspotenzial für fossile Ressourcen.</skos:definition>
         <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/ADP_fossil"/>
@@ -278,6 +296,8 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/lcabim/ilcdind/AP">
         <rdf:type rdf:resource="https://w3id.org/lcabim/ilcdind/ILCDIndicator"/>
         <ilcdind:unit>mol H+ eqv.</ilcdind:unit>
+        <skos:closeMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AtmosphericAcidification"/>
+        <skos:closeMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AtmosphericAcidificationPerUnit"/>
         <skos:definition xml:lang="en">A measure of the acidification caused to land and water.</skos:definition>
         <skos:definition xml:lang="de">Maß für die Versauerung von Land- und Wasserökosystemen.</skos:definition>
         <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/AE"/>
@@ -346,6 +366,8 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/lcabim/ilcdind/EP_freshwater">
         <rdf:type rdf:resource="https://w3id.org/lcabim/ilcdind/ILCDIndicator"/>
         <ilcdind:unit>kg P eqv.</ilcdind:unit>
+        <skos:broadMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Eutrophication"/>
+        <skos:broadMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/EutrophicationPerUnit"/>
         <skos:definition xml:lang="en">Eutrophication potential for freshwater environments.</skos:definition>
         <skos:definition xml:lang="de">Eutrophierungspotenzial für Süßwasser-Umweltkompartimente.</skos:definition>
         <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/EP_freshwater"/>
@@ -363,6 +385,8 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/lcabim/ilcdind/EP_marine">
         <rdf:type rdf:resource="https://w3id.org/lcabim/ilcdind/ILCDIndicator"/>
         <ilcdind:unit>kg N eqv.</ilcdind:unit>
+        <skos:broadMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Eutrophication"/>
+        <skos:broadMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/EutrophicationPerUnit"/>
         <skos:definition xml:lang="en">Eutrophication potential for marine environments.</skos:definition>
         <skos:definition xml:lang="de">Eutrophierungspotenzial für marine Umweltkompartimente.</skos:definition>
         <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/EP_marine"/>
@@ -380,6 +404,8 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/lcabim/ilcdind/EP_terrestrial">
         <rdf:type rdf:resource="https://w3id.org/lcabim/ilcdind/ILCDIndicator"/>
         <ilcdind:unit>mol N eqv.</ilcdind:unit>
+        <skos:broadMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Eutrophication"/>
+        <skos:broadMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/EutrophicationPerUnit"/>
         <skos:definition xml:lang="en">Eutrophication potential for terrestrial environments.</skos:definition>
         <skos:definition xml:lang="de">Eutrophierungspotenzial für terrestrische Umweltkompartimente.</skos:definition>
         <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/EP_terrestrial"/>
@@ -414,6 +440,8 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/lcabim/ilcdind/FW">
         <rdf:type rdf:resource="https://w3id.org/lcabim/ilcdind/ILCDIndicator"/>
         <ilcdind:unit>m3</ilcdind:unit>
+        <skos:closeMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/WaterConsumption"/>
+        <skos:closeMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/WaterConsumptionPerUnit"/>
         <skos:definition xml:lang="en">Net use of fresh water.</skos:definition>
         <skos:definition xml:lang="de">Nettoeinsatz von Süßwasser.</skos:definition>
         <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/FW"/>
@@ -431,6 +459,8 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/lcabim/ilcdind/GWP_biogenic">
         <rdf:type rdf:resource="https://w3id.org/lcabim/ilcdind/ILCDIndicator"/>
         <ilcdind:unit>kg CO2 eqv.</ilcdind:unit>
+        <skos:broadMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChange"/>
+        <skos:broadMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChangePerUnit"/>
         <skos:definition xml:lang="de">Biogener Anteil des Treibhauspotenzials.</skos:definition>
         <skos:definition xml:lang="en">Biogenic component of global warming potential.</skos:definition>
         <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/GWP_biogenic"/>
@@ -448,6 +478,8 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/lcabim/ilcdind/GWP_fossil">
         <rdf:type rdf:resource="https://w3id.org/lcabim/ilcdind/ILCDIndicator"/>
         <ilcdind:unit>kg CO2 eqv.</ilcdind:unit>
+        <skos:broadMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChange"/>
+        <skos:broadMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChangePerUnit"/>
         <skos:definition xml:lang="en">Fossil component of global warming potential.</skos:definition>
         <skos:definition xml:lang="de">Fossiler Anteil des Treibhauspotenzials.</skos:definition>
         <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/GWP_fossil"/>
@@ -465,6 +497,8 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/lcabim/ilcdind/GWP_luluc">
         <rdf:type rdf:resource="https://w3id.org/lcabim/ilcdind/ILCDIndicator"/>
         <ilcdind:unit>kg CO2 eqv.</ilcdind:unit>
+        <skos:broadMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChange"/>
+        <skos:broadMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChangePerUnit"/>
         <skos:definition xml:lang="de">Anteil des Treibhauspotenzials aus Landnutzung und Landnutzungsänderung.</skos:definition>
         <skos:definition xml:lang="en">Land use and land use change component of global warming potential.</skos:definition>
         <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/GWP_luluc"/>
@@ -485,6 +519,8 @@
         <skos:definition xml:lang="de">Gesamtes Treibhauspotenzial.</skos:definition>
         <skos:definition xml:lang="en">Total global warming potential.</skos:definition>
         <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/GWP_total"/>
+        <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChange"/>
+        <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChangePerUnit"/>
         <skos:inScheme rdf:resource="https://w3id.org/lcabim/ILCD_Indicators"/>
         <skos:notation>GWP-total</skos:notation>
         <skos:prefLabel xml:lang="en">Global warming potential - total (GWP-total)</skos:prefLabel>
@@ -533,6 +569,8 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/lcabim/ilcdind/HWD">
         <rdf:type rdf:resource="https://w3id.org/lcabim/ilcdind/ILCDIndicator"/>
         <ilcdind:unit>kg</ilcdind:unit>
+        <skos:closeMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HazardousWaste"/>
+        <skos:closeMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HazardousWastePerUnit"/>
         <skos:definition xml:lang="de">Entsorgter gefährlicher Abfall.</skos:definition>
         <skos:definition xml:lang="en">Hazardous waste disposed.</skos:definition>
         <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/WDH"/>
@@ -601,6 +639,8 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/lcabim/ilcdind/NHWD">
         <rdf:type rdf:resource="https://w3id.org/lcabim/ilcdind/ILCDIndicator"/>
         <ilcdind:unit>kg</ilcdind:unit>
+        <skos:closeMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonHazardousWaste"/>
+        <skos:closeMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonHazardousWastePerUnit"/>
         <skos:definition xml:lang="de">Entsorgter nicht gefährlicher Abfall.</skos:definition>
         <skos:definition xml:lang="en">Non-hazardous waste disposed.</skos:definition>
         <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/WDNH"/>
@@ -638,6 +678,8 @@
         <skos:definition xml:lang="de">Ozonabbaupotenzial.</skos:definition>
         <skos:definition xml:lang="en">Ozone depletion potential.</skos:definition>
         <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/ODP"/>
+        <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StratosphericOzoneLayerDestruction"/>
+        <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StratosphericOzoneLayerDestructionPerUnit"/>
         <skos:inScheme rdf:resource="https://w3id.org/lcabim/ILCD_Indicators"/>
         <skos:notation>ODP</skos:notation>
         <skos:prefLabel xml:lang="en">Depletion potential of the stratospheric ozone layer (ODP)</skos:prefLabel>
@@ -652,6 +694,8 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/lcabim/ilcdind/PENRE">
         <rdf:type rdf:resource="https://w3id.org/lcabim/ilcdind/ILCDIndicator"/>
         <ilcdind:unit>MJ</ilcdind:unit>
+        <skos:broadMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumption"/>
+        <skos:broadMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumptionPerUnit"/>
         <skos:definition xml:lang="de">Einsatz nicht erneuerbarer Primärenergie.</skos:definition>
         <skos:definition xml:lang="en">Use of non-renewable primary energy.</skos:definition>
         <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/PE_NRE"/>
@@ -669,6 +713,8 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/lcabim/ilcdind/PENRM">
         <rdf:type rdf:resource="https://w3id.org/lcabim/ilcdind/ILCDIndicator"/>
         <ilcdind:unit>MJ</ilcdind:unit>
+        <skos:broadMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumption"/>
+        <skos:broadMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumptionPerUnit"/>
         <skos:definition xml:lang="de">Nicht erneuerbare Primärenergieressourcen, die als Rohstoffe eingesetzt werden.</skos:definition>
         <skos:definition xml:lang="en">Non-renewable primary energy resources used as raw materials.</skos:definition>
         <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/PE_NRM"/>
@@ -686,6 +732,8 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/lcabim/ilcdind/PENRT">
         <rdf:type rdf:resource="https://w3id.org/lcabim/ilcdind/ILCDIndicator"/>
         <ilcdind:unit>MJ</ilcdind:unit>
+        <skos:closeMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumption"/>
+        <skos:closeMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumptionPerUnit"/>
         <skos:definition xml:lang="de">Gesamter Einsatz nicht erneuerbarer Primärenergieressourcen.</skos:definition>
         <skos:definition xml:lang="en">Total use of non-renewable primary energy resources.</skos:definition>
         <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/non-renewableprimaryresourceswithenergycontent-tot"/>
@@ -703,6 +751,8 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/lcabim/ilcdind/PERE">
         <rdf:type rdf:resource="https://w3id.org/lcabim/ilcdind/ILCDIndicator"/>
         <ilcdind:unit>MJ</ilcdind:unit>
+        <skos:broadMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumption"/>
+        <skos:broadMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumptionPerUnit"/>
         <skos:definition xml:lang="de">Einsatz erneuerbarer Primärenergie.</skos:definition>
         <skos:definition xml:lang="en">Use of renewable primary energy.</skos:definition>
         <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/PE_RE"/>
@@ -720,6 +770,8 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/lcabim/ilcdind/PERM">
         <rdf:type rdf:resource="https://w3id.org/lcabim/ilcdind/ILCDIndicator"/>
         <ilcdind:unit>MJ</ilcdind:unit>
+        <skos:broadMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumption"/>
+        <skos:broadMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumptionPerUnit"/>
         <skos:definition xml:lang="de">Erneuerbare Primärenergieressourcen, die als Rohstoffe eingesetzt werden.</skos:definition>
         <skos:definition xml:lang="en">Renewable primary energy resources used as raw materials.</skos:definition>
         <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/PE_RM"/>
@@ -737,6 +789,8 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/lcabim/ilcdind/PERT">
         <rdf:type rdf:resource="https://w3id.org/lcabim/ilcdind/ILCDIndicator"/>
         <ilcdind:unit>MJ</ilcdind:unit>
+        <skos:closeMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumption"/>
+        <skos:closeMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumptionPerUnit"/>
         <skos:definition xml:lang="de">Gesamter Einsatz erneuerbarer Primärenergieressourcen.</skos:definition>
         <skos:definition xml:lang="en">Total use of renewable primary energy resources.</skos:definition>
         <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/renewableprimaryresourceswithenergycontent-total"/>
@@ -771,6 +825,8 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/lcabim/ilcdind/POCP">
         <rdf:type rdf:resource="https://w3id.org/lcabim/ilcdind/ILCDIndicator"/>
         <ilcdind:unit>kg NMVOC eqv.</ilcdind:unit>
+        <skos:closeMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/PhotochemicalOzoneFormation"/>
+        <skos:closeMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/PhotochemicalOzoneFormationPerUnit"/>
         <skos:definition xml:lang="en">Photochemical ozone creation potential.</skos:definition>
         <skos:definition xml:lang="de">Photochemisches Ozonbildungspotenzial.</skos:definition>
         <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/POCP"/>
@@ -805,6 +861,8 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/lcabim/ilcdind/RWD">
         <rdf:type rdf:resource="https://w3id.org/lcabim/ilcdind/ILCDIndicator"/>
         <ilcdind:unit>kg</ilcdind:unit>
+        <skos:closeMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RadioactiveWaste"/>
+        <skos:closeMatch rdf:resource="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RadioactiveWastePerUnit"/>
         <skos:definition xml:lang="de">Entsorgter radioaktiver Abfall.</skos:definition>
         <skos:definition xml:lang="en">Radioactive waste disposed.</skos:definition>
         <skos:exactMatch rdf:resource="https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/WR"/>

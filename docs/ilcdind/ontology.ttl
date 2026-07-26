@@ -35,6 +35,14 @@
 <http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
 
 
+###  http://www.w3.org/2004/02/skos/core#broadMatch
+<http://www.w3.org/2004/02/skos/core#broadMatch> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#closeMatch
+<http://www.w3.org/2004/02/skos/core#closeMatch> rdf:type owl:AnnotationProperty .
+
+
 ###  http://www.w3.org/2004/02/skos/core#definition
 <http://www.w3.org/2004/02/skos/core#definition> rdf:type owl:AnnotationProperty .
 
@@ -133,6 +141,8 @@ xsd:date rdf:type rdfs:Datatype .
 <https://w3id.org/lcabim/ilcdind/ADPE> rdf:type owl:NamedIndividual ,
                                                 <https://w3id.org/lcabim/ilcdind/ILCDIndicator> ;
                                        <https://w3id.org/lcabim/ilcdind/unit> "kg Sb-eqv." ;
+                                       <http://www.w3.org/2004/02/skos/core#closeMatch> <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletion> ,
+                                                                                        <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletionPerUnit> ;
                                        <http://www.w3.org/2004/02/skos/core#definition> "Abiotic depletion potential for minerals and metals."@en ,
                                                                                         "Abiotisches Ressourcenverknappungspotenzial für Mineralien und Metalle."@de ;
                                        <http://www.w3.org/2004/02/skos/core#exactMatch> <https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/ADP_MM> ;
@@ -146,6 +156,8 @@ xsd:date rdf:type rdfs:Datatype .
 <https://w3id.org/lcabim/ilcdind/ADPF> rdf:type owl:NamedIndividual ,
                                                 <https://w3id.org/lcabim/ilcdind/ILCDIndicator> ;
                                        <https://w3id.org/lcabim/ilcdind/unit> "MJ" ;
+                                       <http://www.w3.org/2004/02/skos/core#broadMatch> <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletion> ,
+                                                                                        <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ResourceDepletionPerUnit> ;
                                        <http://www.w3.org/2004/02/skos/core#definition> "Abiotic depletion potential for fossil resources."@en ,
                                                                                         "Abiotisches Ressourcenverknappungspotenzial für fossile Ressourcen."@de ;
                                        <http://www.w3.org/2004/02/skos/core#exactMatch> <https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/ADP_fossil> ;
@@ -159,6 +171,8 @@ xsd:date rdf:type rdfs:Datatype .
 <https://w3id.org/lcabim/ilcdind/AP> rdf:type owl:NamedIndividual ,
                                               <https://w3id.org/lcabim/ilcdind/ILCDIndicator> ;
                                      <https://w3id.org/lcabim/ilcdind/unit> "mol H+ eqv." ;
+                                     <http://www.w3.org/2004/02/skos/core#closeMatch> <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AtmosphericAcidification> ,
+                                                                                      <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/AtmosphericAcidificationPerUnit> ;
                                      <http://www.w3.org/2004/02/skos/core#definition> "A measure of the acidification caused to land and water."@en ,
                                                                                       "Maß für die Versauerung von Land- und Wasserökosystemen."@de ;
                                      <http://www.w3.org/2004/02/skos/core#exactMatch> <https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/AE> ;
@@ -211,6 +225,8 @@ xsd:date rdf:type rdfs:Datatype .
 <https://w3id.org/lcabim/ilcdind/EP_freshwater> rdf:type owl:NamedIndividual ,
                                                          <https://w3id.org/lcabim/ilcdind/ILCDIndicator> ;
                                                 <https://w3id.org/lcabim/ilcdind/unit> "kg P eqv." ;
+                                                <http://www.w3.org/2004/02/skos/core#broadMatch> <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Eutrophication> ,
+                                                                                                 <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/EutrophicationPerUnit> ;
                                                 <http://www.w3.org/2004/02/skos/core#definition> "Eutrophication potential for freshwater environments."@en ,
                                                                                                  "Eutrophierungspotenzial für Süßwasser-Umweltkompartimente."@de ;
                                                 <http://www.w3.org/2004/02/skos/core#exactMatch> <https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/EP_freshwater> ;
@@ -224,6 +240,8 @@ xsd:date rdf:type rdfs:Datatype .
 <https://w3id.org/lcabim/ilcdind/EP_marine> rdf:type owl:NamedIndividual ,
                                                      <https://w3id.org/lcabim/ilcdind/ILCDIndicator> ;
                                             <https://w3id.org/lcabim/ilcdind/unit> "kg N eqv." ;
+                                            <http://www.w3.org/2004/02/skos/core#broadMatch> <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Eutrophication> ,
+                                                                                             <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/EutrophicationPerUnit> ;
                                             <http://www.w3.org/2004/02/skos/core#definition> "Eutrophication potential for marine environments."@en ,
                                                                                              "Eutrophierungspotenzial für marine Umweltkompartimente."@de ;
                                             <http://www.w3.org/2004/02/skos/core#exactMatch> <https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/EP_marine> ;
@@ -237,6 +255,8 @@ xsd:date rdf:type rdfs:Datatype .
 <https://w3id.org/lcabim/ilcdind/EP_terrestrial> rdf:type owl:NamedIndividual ,
                                                           <https://w3id.org/lcabim/ilcdind/ILCDIndicator> ;
                                                  <https://w3id.org/lcabim/ilcdind/unit> "mol N eqv." ;
+                                                 <http://www.w3.org/2004/02/skos/core#broadMatch> <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Eutrophication> ,
+                                                                                                  <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/EutrophicationPerUnit> ;
                                                  <http://www.w3.org/2004/02/skos/core#definition> "Eutrophication potential for terrestrial environments."@en ,
                                                                                                   "Eutrophierungspotenzial für terrestrische Umweltkompartimente."@de ;
                                                  <http://www.w3.org/2004/02/skos/core#exactMatch> <https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/EP_terrestrial> ;
@@ -263,6 +283,8 @@ xsd:date rdf:type rdfs:Datatype .
 <https://w3id.org/lcabim/ilcdind/FW> rdf:type owl:NamedIndividual ,
                                               <https://w3id.org/lcabim/ilcdind/ILCDIndicator> ;
                                      <https://w3id.org/lcabim/ilcdind/unit> "m3" ;
+                                     <http://www.w3.org/2004/02/skos/core#closeMatch> <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/WaterConsumption> ,
+                                                                                      <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/WaterConsumptionPerUnit> ;
                                      <http://www.w3.org/2004/02/skos/core#definition> "Net use of fresh water."@en ,
                                                                                       "Nettoeinsatz von Süßwasser."@de ;
                                      <http://www.w3.org/2004/02/skos/core#exactMatch> <https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/FW> ;
@@ -276,6 +298,8 @@ xsd:date rdf:type rdfs:Datatype .
 <https://w3id.org/lcabim/ilcdind/GWP_biogenic> rdf:type owl:NamedIndividual ,
                                                         <https://w3id.org/lcabim/ilcdind/ILCDIndicator> ;
                                                <https://w3id.org/lcabim/ilcdind/unit> "kg CO2 eqv." ;
+                                               <http://www.w3.org/2004/02/skos/core#broadMatch> <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChange> ,
+                                                                                                <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChangePerUnit> ;
                                                <http://www.w3.org/2004/02/skos/core#definition> "Biogener Anteil des Treibhauspotenzials."@de ,
                                                                                                 "Biogenic component of global warming potential."@en ;
                                                <http://www.w3.org/2004/02/skos/core#exactMatch> <https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/GWP_biogenic> ;
@@ -289,6 +313,8 @@ xsd:date rdf:type rdfs:Datatype .
 <https://w3id.org/lcabim/ilcdind/GWP_fossil> rdf:type owl:NamedIndividual ,
                                                       <https://w3id.org/lcabim/ilcdind/ILCDIndicator> ;
                                              <https://w3id.org/lcabim/ilcdind/unit> "kg CO2 eqv." ;
+                                             <http://www.w3.org/2004/02/skos/core#broadMatch> <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChange> ,
+                                                                                              <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChangePerUnit> ;
                                              <http://www.w3.org/2004/02/skos/core#definition> "Fossil component of global warming potential."@en ,
                                                                                               "Fossiler Anteil des Treibhauspotenzials."@de ;
                                              <http://www.w3.org/2004/02/skos/core#exactMatch> <https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/GWP_fossil> ;
@@ -302,6 +328,8 @@ xsd:date rdf:type rdfs:Datatype .
 <https://w3id.org/lcabim/ilcdind/GWP_luluc> rdf:type owl:NamedIndividual ,
                                                      <https://w3id.org/lcabim/ilcdind/ILCDIndicator> ;
                                             <https://w3id.org/lcabim/ilcdind/unit> "kg CO2 eqv." ;
+                                            <http://www.w3.org/2004/02/skos/core#broadMatch> <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChange> ,
+                                                                                             <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChangePerUnit> ;
                                             <http://www.w3.org/2004/02/skos/core#definition> "Anteil des Treibhauspotenzials aus Landnutzung und Landnutzungsänderung."@de ,
                                                                                              "Land use and land use change component of global warming potential."@en ;
                                             <http://www.w3.org/2004/02/skos/core#exactMatch> <https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/GWP_luluc> ;
@@ -317,7 +345,9 @@ xsd:date rdf:type rdfs:Datatype .
                                             <https://w3id.org/lcabim/ilcdind/unit> "kg CO2 eqv." ;
                                             <http://www.w3.org/2004/02/skos/core#definition> "Gesamtes Treibhauspotenzial."@de ,
                                                                                              "Total global warming potential."@en ;
-                                            <http://www.w3.org/2004/02/skos/core#exactMatch> <https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/GWP_total> ;
+                                            <http://www.w3.org/2004/02/skos/core#exactMatch> <https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/GWP_total> ,
+                                                                                             <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChange> ,
+                                                                                             <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/ClimateChangePerUnit> ;
                                             <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/ILCD_Indicators> ;
                                             <http://www.w3.org/2004/02/skos/core#notation> "GWP-total" ;
                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "Global warming potential - total (GWP-total)"@en ,
@@ -354,6 +384,8 @@ xsd:date rdf:type rdfs:Datatype .
 <https://w3id.org/lcabim/ilcdind/HWD> rdf:type owl:NamedIndividual ,
                                                <https://w3id.org/lcabim/ilcdind/ILCDIndicator> ;
                                       <https://w3id.org/lcabim/ilcdind/unit> "kg" ;
+                                      <http://www.w3.org/2004/02/skos/core#closeMatch> <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HazardousWaste> ,
+                                                                                       <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/HazardousWastePerUnit> ;
                                       <http://www.w3.org/2004/02/skos/core#definition> "Entsorgter gefährlicher Abfall."@de ,
                                                                                        "Hazardous waste disposed."@en ;
                                       <http://www.w3.org/2004/02/skos/core#exactMatch> <https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/WDH> ;
@@ -406,6 +438,8 @@ xsd:date rdf:type rdfs:Datatype .
 <https://w3id.org/lcabim/ilcdind/NHWD> rdf:type owl:NamedIndividual ,
                                                 <https://w3id.org/lcabim/ilcdind/ILCDIndicator> ;
                                        <https://w3id.org/lcabim/ilcdind/unit> "kg" ;
+                                       <http://www.w3.org/2004/02/skos/core#closeMatch> <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonHazardousWaste> ,
+                                                                                        <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonHazardousWastePerUnit> ;
                                        <http://www.w3.org/2004/02/skos/core#definition> "Entsorgter nicht gefährlicher Abfall."@de ,
                                                                                         "Non-hazardous waste disposed."@en ;
                                        <http://www.w3.org/2004/02/skos/core#exactMatch> <https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/WDNH> ;
@@ -434,7 +468,9 @@ xsd:date rdf:type rdfs:Datatype .
                                       <https://w3id.org/lcabim/ilcdind/unit> "kg CFC 11 eqv." ;
                                       <http://www.w3.org/2004/02/skos/core#definition> "Ozonabbaupotenzial."@de ,
                                                                                        "Ozone depletion potential."@en ;
-                                      <http://www.w3.org/2004/02/skos/core#exactMatch> <https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/ODP> ;
+                                      <http://www.w3.org/2004/02/skos/core#exactMatch> <https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/ODP> ,
+                                                                                       <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StratosphericOzoneLayerDestruction> ,
+                                                                                       <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/StratosphericOzoneLayerDestructionPerUnit> ;
                                       <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/lcabim/ILCD_Indicators> ;
                                       <http://www.w3.org/2004/02/skos/core#notation> "ODP" ;
                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Depletion potential of the stratospheric ozone layer (ODP)"@en ,
@@ -445,6 +481,8 @@ xsd:date rdf:type rdfs:Datatype .
 <https://w3id.org/lcabim/ilcdind/PENRE> rdf:type owl:NamedIndividual ,
                                                  <https://w3id.org/lcabim/ilcdind/ILCDIndicator> ;
                                         <https://w3id.org/lcabim/ilcdind/unit> "MJ" ;
+                                        <http://www.w3.org/2004/02/skos/core#broadMatch> <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumption> ,
+                                                                                         <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumptionPerUnit> ;
                                         <http://www.w3.org/2004/02/skos/core#definition> "Einsatz nicht erneuerbarer Primärenergie."@de ,
                                                                                          "Use of non-renewable primary energy."@en ;
                                         <http://www.w3.org/2004/02/skos/core#exactMatch> <https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/PE_NRE> ;
@@ -458,6 +496,8 @@ xsd:date rdf:type rdfs:Datatype .
 <https://w3id.org/lcabim/ilcdind/PENRM> rdf:type owl:NamedIndividual ,
                                                  <https://w3id.org/lcabim/ilcdind/ILCDIndicator> ;
                                         <https://w3id.org/lcabim/ilcdind/unit> "MJ" ;
+                                        <http://www.w3.org/2004/02/skos/core#broadMatch> <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumption> ,
+                                                                                         <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumptionPerUnit> ;
                                         <http://www.w3.org/2004/02/skos/core#definition> "Nicht erneuerbare Primärenergieressourcen, die als Rohstoffe eingesetzt werden."@de ,
                                                                                          "Non-renewable primary energy resources used as raw materials."@en ;
                                         <http://www.w3.org/2004/02/skos/core#exactMatch> <https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/PE_NRM> ;
@@ -471,6 +511,8 @@ xsd:date rdf:type rdfs:Datatype .
 <https://w3id.org/lcabim/ilcdind/PENRT> rdf:type owl:NamedIndividual ,
                                                  <https://w3id.org/lcabim/ilcdind/ILCDIndicator> ;
                                         <https://w3id.org/lcabim/ilcdind/unit> "MJ" ;
+                                        <http://www.w3.org/2004/02/skos/core#closeMatch> <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumption> ,
+                                                                                         <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/NonRenewableEnergyConsumptionPerUnit> ;
                                         <http://www.w3.org/2004/02/skos/core#definition> "Gesamter Einsatz nicht erneuerbarer Primärenergieressourcen."@de ,
                                                                                          "Total use of non-renewable primary energy resources."@en ;
                                         <http://www.w3.org/2004/02/skos/core#exactMatch> <https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/non-renewableprimaryresourceswithenergycontent-tot> ;
@@ -484,6 +526,8 @@ xsd:date rdf:type rdfs:Datatype .
 <https://w3id.org/lcabim/ilcdind/PERE> rdf:type owl:NamedIndividual ,
                                                 <https://w3id.org/lcabim/ilcdind/ILCDIndicator> ;
                                        <https://w3id.org/lcabim/ilcdind/unit> "MJ" ;
+                                       <http://www.w3.org/2004/02/skos/core#broadMatch> <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumption> ,
+                                                                                        <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumptionPerUnit> ;
                                        <http://www.w3.org/2004/02/skos/core#definition> "Einsatz erneuerbarer Primärenergie."@de ,
                                                                                         "Use of renewable primary energy."@en ;
                                        <http://www.w3.org/2004/02/skos/core#exactMatch> <https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/PE_RE> ;
@@ -497,6 +541,8 @@ xsd:date rdf:type rdfs:Datatype .
 <https://w3id.org/lcabim/ilcdind/PERM> rdf:type owl:NamedIndividual ,
                                                 <https://w3id.org/lcabim/ilcdind/ILCDIndicator> ;
                                        <https://w3id.org/lcabim/ilcdind/unit> "MJ" ;
+                                       <http://www.w3.org/2004/02/skos/core#broadMatch> <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumption> ,
+                                                                                        <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumptionPerUnit> ;
                                        <http://www.w3.org/2004/02/skos/core#definition> "Erneuerbare Primärenergieressourcen, die als Rohstoffe eingesetzt werden."@de ,
                                                                                         "Renewable primary energy resources used as raw materials."@en ;
                                        <http://www.w3.org/2004/02/skos/core#exactMatch> <https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/PE_RM> ;
@@ -510,6 +556,8 @@ xsd:date rdf:type rdfs:Datatype .
 <https://w3id.org/lcabim/ilcdind/PERT> rdf:type owl:NamedIndividual ,
                                                 <https://w3id.org/lcabim/ilcdind/ILCDIndicator> ;
                                        <https://w3id.org/lcabim/ilcdind/unit> "MJ" ;
+                                       <http://www.w3.org/2004/02/skos/core#closeMatch> <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumption> ,
+                                                                                        <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RenewableEnergyConsumptionPerUnit> ;
                                        <http://www.w3.org/2004/02/skos/core#definition> "Gesamter Einsatz erneuerbarer Primärenergieressourcen."@de ,
                                                                                         "Total use of renewable primary energy resources."@en ;
                                        <http://www.w3.org/2004/02/skos/core#exactMatch> <https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/renewableprimaryresourceswithenergycontent-total> ;
@@ -536,6 +584,8 @@ xsd:date rdf:type rdfs:Datatype .
 <https://w3id.org/lcabim/ilcdind/POCP> rdf:type owl:NamedIndividual ,
                                                 <https://w3id.org/lcabim/ilcdind/ILCDIndicator> ;
                                        <https://w3id.org/lcabim/ilcdind/unit> "kg NMVOC eqv." ;
+                                       <http://www.w3.org/2004/02/skos/core#closeMatch> <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/PhotochemicalOzoneFormation> ,
+                                                                                        <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/PhotochemicalOzoneFormationPerUnit> ;
                                        <http://www.w3.org/2004/02/skos/core#definition> "Photochemical ozone creation potential."@en ,
                                                                                         "Photochemisches Ozonbildungspotenzial."@de ;
                                        <http://www.w3.org/2004/02/skos/core#exactMatch> <https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/POCP> ;
@@ -562,6 +612,8 @@ xsd:date rdf:type rdfs:Datatype .
 <https://w3id.org/lcabim/ilcdind/RWD> rdf:type owl:NamedIndividual ,
                                                <https://w3id.org/lcabim/ilcdind/ILCDIndicator> ;
                                       <https://w3id.org/lcabim/ilcdind/unit> "kg" ;
+                                      <http://www.w3.org/2004/02/skos/core#closeMatch> <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RadioactiveWaste> ,
+                                                                                       <https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/RadioactiveWastePerUnit> ;
                                       <http://www.w3.org/2004/02/skos/core#definition> "Entsorgter radioaktiver Abfall."@de ,
                                                                                        "Radioactive waste disposed."@en ;
                                       <http://www.w3.org/2004/02/skos/core#exactMatch> <https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/WR> ;

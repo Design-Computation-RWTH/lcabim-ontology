@@ -12,10 +12,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/terms/description" : [ {
     "@language" : "en",
-    "@value" : "Umbrella ontology that imports the ILCD core schema and project vocabularies for DIN 276, ÖKOBAUDAT categories, concrete classes, BKI element/layer modeling, LCA indicators from the bSDD and ILCD."
+    "@value" : "Umbrella ontology that imports the ILCD core schema and project vocabularies for DIN 276, ÖKOBAUDAT categories, concrete classes, BKI element/layer modeling, LCA indicators from ILCD, bSDD LCA, and IFC 4.3 environmental impact properties."
   }, {
     "@language" : "de",
-    "@value" : "Umbrella-Ontologie, die das ILCD-Kernschema und Projektvokabulare für DIN 276, ÖKOBAUDAT-Kategorien, Betonklassen, BKI-Element-/Schichtmodellierung, LCA-Indikatoren aus bSDD und ILCD importiert."
+    "@value" : "Umbrella-Ontologie, die das ILCD-Kernschema und Projektvokabulare für DIN 276, ÖKOBAUDAT-Kategorien, Betonklassen, BKI-Element-/Schichtmodellierung, LCA-Indikatoren aus ILCD, bSDD LCA und IFC-4.3-Umweltwirkungs-Properties importiert."
   } ],
   "http://purl.org/dc/terms/license" : [ {
     "@id" : "https://creativecommons.org/licenses/by/4.0/"
@@ -30,7 +30,9 @@
   "http://www.w3.org/2002/07/owl#imports" : [ {
     "@id" : "https://w3id.org/lcabim/bki/"
   }, {
-    "@id" : "https://w3id.org/lcabim/bsdd/"
+    "@id" : "https://w3id.org/lcabim/bsddifc/"
+  }, {
+    "@id" : "https://w3id.org/lcabim/bsddlca/"
   }, {
     "@id" : "https://w3id.org/lcabim/concreteclass/"
   }, {
